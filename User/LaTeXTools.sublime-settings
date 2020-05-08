@@ -123,8 +123,10 @@
 	// Just write \\usepackage{packagename} to include other packages.
 	// (The xcolor package will be present, even if not in this list.)
 	"preview_math_template_packages": [
-		"\\usepackage{amsmath}",
-		"\\usepackage{amssymb}",
+		// "\\usepackage{amsmath}",
+		// "\\usepackage{amssymb}",
+		"\\usepackage{unicode-math}",
+		"\\usepackage{siunitx}",
 		"\\IfFileExists{latexsym.sty}{\\usepackage{latexsym}}{}",
 		"\\IfFileExists{mathtools.sty}{\\usepackage{mathtools}}{}"
 	],

@@ -9,7 +9,7 @@ LaTeX Package keymap for OS X
 			{"key": "selector", "operator": "equal", "operand": "text.tex.latex"},
 			{"key": "latextools.st_version", "operator": "equal", "operand": "<3080"}],
 		"command": "latextools_build_selector"},
-	{	"keys": ["super+shift+b"],
+	{	"keys": ["super+alt+b"],
 		"context": [
 			{"key": "selector", "operator": "equal", "operand": "text.tex.latex"},
 			{"key": "latextools.st_version", "operator": "equal", "operand": "<3080"}],

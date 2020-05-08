@@ -1,0 +1,9 @@
+[
+	{
+        "keys": ["super+l", "super+shift+b"],
+        "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Build: "},
+        "context": [
+            {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
+        ]
+    }
+]
