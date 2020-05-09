@@ -5,5 +5,7 @@
         "context": [
             {"key": "selector", "operand": "text.tex.latex", "operator": "equal"}
         ]
-    }
+    },
+    { "keys": ["end"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["home"], "command": "move_to", "args": {"to": "bol", "extend": false} },
 ]

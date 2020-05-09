@@ -5,13 +5,16 @@
 	],
 	"installed_packages":
 	[
+		"AlignTab",
 		"ayu",
 		"Codecs33",
 		"ConvertToUTF8",
 		"Fortran",
+		"ImageMagick",
 		"LaTeX Word Count",
 		"LaTeX-cwl",
 		"LaTeXing",
+		"LaTeXTab",
 		"LaTeXTools",
 		"Package Control",
 		"SaltStack-related syntax highlighting and snippets",

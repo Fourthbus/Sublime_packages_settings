@@ -97,7 +97,7 @@
 	// to only preview math environment
 	// Set it to "text.tex.latex meta.environment.math"
 	// to preview every math command or environment
-	"preview_math_scope": "text.tex.latex meta.environment.math.block",
+	"preview_math_scope": "text.tex.latex meta.environment.math",
 
 	// The program to compile the latex template files, possible values are
 	// pdflatex, xelatex, lualatex, latex
@@ -127,6 +127,7 @@
 		// "\\usepackage{amssymb}",
 		"\\usepackage{unicode-math}",
 		"\\usepackage{siunitx}",
+		"\\newcommand{\\dv}{\\mathrm{d}}",
 		"\\IfFileExists{latexsym.sty}{\\usepackage{latexsym}}{}",
 		"\\IfFileExists{mathtools.sty}{\\usepackage{mathtools}}{}"
 	],
@@ -159,28 +160,29 @@
 	// "selected"  to show a phantom only for the currently selected includegraphics command
 	// "hover"     to show a popup if you hover over an includegraphics command
 	// "none"      to disable image preview
-	"preview_image_mode": "hover",
+	"preview_image_mode": "selected",
 
 	// The image size in the preview popup.
 	// These are the outer dimensions of the maximal size.
 	// The image will be scaled down to fit into these dimensions.
 	// It can either be an number or an array, which consist of two numbers
 	// e.g. [200, 150]
-	"preview_popup_image_size": 200,
+	"preview_popup_image_size": 400,
 
 	// The image size in the preview phantoms.
 	// These are the outer dimensions of the maximal size.
 	// The image will be scaled down to fit into these dimensions.
 	// It can either be an number or an array, which consist of two numbers
 	// e.g. [200, 150]
-	"preview_phantom_image_size": 150,
+	"preview_phantom_image_size": 300,
 
 	// Increase this number to get a better resolution on high dpi displays.
 	// Control the thumbnail image size, which will be generated to preview
 	// images, that are not natively supported like pdf files.
 	// E.g. a image size of 300 with a scale of 2 will create a
 	// thumbnail with the size 600, which is scaled down in the popup.
-	"preview_image_scale_quotient": 1,
+	"preview_image_scale_quotient": 2,
+	"preview_image_hires": true,
 
 // ------------------------------------------------------------------
 // Temporary file settings
@@ -202,7 +204,7 @@
 
 	"osx": 	{
 		// Path used when invoking tex & friends; MUST include $PATH
-		"texpath" : "$PATH:/Library/TeX/texbin:/usr/texbin:/usr/local/bin:/opt/local/bin"
+		"texpath" : "$PATH:/Library/TeX/texbin:/usr/texbin:/usr/local/bin:/opt/local/bin:/usr/local/sbin"
 		// Path to PDF viewer, if needed
 		// TODO think about it. Also, maybe configure it here!
 	},
