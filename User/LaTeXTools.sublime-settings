@@ -128,6 +128,7 @@
 		"\\usepackage{unicode-math}",
 		"\\usepackage{siunitx}",
 		"\\newcommand{\\dv}{\\mathrm{d}}",
+		"\\newcommand{\\grad}{\\nabla}",
 		"\\IfFileExists{latexsym.sty}{\\usepackage{latexsym}}{}",
 		"\\IfFileExists{mathtools.sty}{\\usepackage{mathtools}}{}"
 	],

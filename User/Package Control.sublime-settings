@@ -18,6 +18,7 @@
 		"LaTeXTools",
 		"Package Control",
 		"SaltStack-related syntax highlighting and snippets",
-		"TeX Live Package Manager"
+		"TeX Live Package Manager",
+		"TikZ"
 	]
 }
