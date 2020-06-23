@@ -7,6 +7,7 @@
 	[
 		"AlignTab",
 		"ayu",
+		"ClipboardCommands",
 		"Codecs33",
 		"ConvertToUTF8",
 		"Fortran",
@@ -20,5 +21,9 @@
 		"SaltStack-related syntax highlighting and snippets",
 		"TeX Live Package Manager",
 		"TikZ"
+	],
+	"repositories":
+	[
+		"https://github.com/Fourthbus/ClipboardCommands.git"
 	]
 }
