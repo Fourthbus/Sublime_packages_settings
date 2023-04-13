@@ -14,11 +14,11 @@
 	[
 		{
 			"characters": "<",
-			"selector": "text.html"
+			"selector": "text.html",
 		},
 		{
 			"characters": "\\",
-			"selector": "text.tex.latex"
+			"selector": "text.tex.latex",
 		}
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
@@ -28,10 +28,10 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 12,
+	"font_size": 14,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"ignored_words":
 	[
@@ -39,5 +39,5 @@
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
 	"spell_check": true,
-	"theme": "Adaptive.sublime-theme"
+	"theme": "Adaptive.sublime-theme",
 }

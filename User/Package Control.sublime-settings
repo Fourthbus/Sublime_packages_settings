@@ -10,7 +10,9 @@
 		"ClipboardCommands",
 		"Codecs33",
 		"ConvertToUTF8",
+		"Formatter",
 		"Fortran",
+		"HTML-CSS-JS Prettify",
 		"ImageMagick",
 		"LaTeX Word Count",
 		"LaTeX-cwl",
@@ -25,5 +27,5 @@
 	"repositories":
 	[
 		"https://github.com/Fourthbus/ClipboardCommands.git"
-	]
+	],
 }
